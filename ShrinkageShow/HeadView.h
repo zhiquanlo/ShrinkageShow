@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HeadView.h
 //  ShrinkageShow
 //
 //  Created by 李志权 on 16/6/6.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface HeadView : UIView
+@property (nonatomic,strong)UILabel *titleLabel;
+@property (nonatomic,strong)UIImageView *arrowImage;
 @end
-
